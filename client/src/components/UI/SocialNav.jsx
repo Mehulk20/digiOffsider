@@ -1,18 +1,19 @@
 import { FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
+import { Link } from "react-router-dom";
 function SocialNav() {
   return (
     <nav>
       <h3 className="text-lg font-semibold mb-3">Follow Us</h3>
       <div className="flex space-x-4 text-gray-400">
-        <a href="#" className="hover:text-white text-xl">
+        <Link className="hover:text-white text-xl">
           <FaTwitter />
-        </a>
-        <a href="#" className="hover:text-white text-xl">
+        </Link>
+        <Link className="hover:text-white text-xl">
           <FaLinkedin />
-        </a>
-        <a href="#" className="hover:text-white text-xl">
+        </Link>
+        <Link className="hover:text-white text-xl">
           <FaGithub />
-        </a>
+        </Link>
       </div>
     </nav>
   );

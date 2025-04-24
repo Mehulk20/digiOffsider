@@ -1,27 +1,21 @@
+import { Link } from "react-router-dom";
+
 function FooterNav() {
   return (
     <nav>
       <h3 className="text-lg font-semibold mb-3">Quick Links</h3>
       <ul className="space-y-2 text-sm text-gray-400">
         <li>
-          <a href="#" className="hover:text-white">
-            About Us
-          </a>
+          <Link className="hover:text-white">About Us</Link>
         </li>
         <li>
-          <a href="#" className="hover:text-white">
-            Contact
-          </a>
+          <Link className="hover:text-white">Contact</Link>
         </li>
         <li>
-          <a href="#" className="hover:text-white">
-            Blog
-          </a>
+          <Link className="hover:text-white">Blog</Link>
         </li>
         <li>
-          <a href="#" className="hover:text-white">
-            Privacy Policy
-          </a>
+          <Link className="hover:text-white">Privacy Policy</Link>
         </li>
       </ul>
     </nav>

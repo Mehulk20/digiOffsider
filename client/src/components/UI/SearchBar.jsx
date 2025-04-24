@@ -2,7 +2,7 @@ import Button from "./shared/Button";
 
 function SearchBar() {
   return (
-    <div className="flex justify-center items-center py-2 w-full bg-gray-200">
+    <div className="flex justify-center items-center py-2 w-full px-2">
       <form className="w-full max-w-xl flex gap-2">
         <input
           type="text"

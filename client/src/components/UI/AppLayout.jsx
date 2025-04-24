@@ -7,8 +7,10 @@ function AppLayout() {
     <div className="grid h-screen grid-rows-[auto_1fr_auto]">
       <Header />
       <div>
-        <main className="h-full w-full md:mx-auto md:max-w-5xl bg-[#264653] text-white">
-          <Outlet />
+        <main className="h-full bg-[#19191e] text-white py-6">
+          <section className=" mx-auto max-w-6xl px-3 font-fontPrimary text-sm text-slate-300">
+            <Outlet />
+          </section>
         </main>
       </div>
       <Footer />

@@ -1,5 +1,11 @@
+import InfoCard from "../components/UI/InfoCard";
+
 function HomePage() {
-  return <div>HomePage</div>;
+  return (
+    <section>
+      <InfoCard />
+    </section>
+  );
 }
 
 export default HomePage;
