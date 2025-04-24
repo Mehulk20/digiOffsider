@@ -7,7 +7,7 @@ function SearchBar() {
         <input
           type="text"
           placeholder="Search for something..."
-          className="w-full p-2 text-lg rounded-2xl shadow-md border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:outline-none pl-3"
+          className="w-full p-2 text-lg rounded-2xl  border-gray-300  focus:outline-none pl-3 bg-slate-200 focus:bg-white transition-all duration-200"
         />
         <Button>search</Button>
       </form>

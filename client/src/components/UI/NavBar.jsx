@@ -8,7 +8,7 @@ function NavBar() {
           <Link to="/">Home</Link>
         </li>
         <li className="inline-block hover:bg-[#373d42] px-2 py-2 rounded-md hover:shadow-sm hover:text-white">
-          <Link to="/">About</Link>
+          <Link to="/about">About</Link>
         </li>
       </ul>
     </nav>
